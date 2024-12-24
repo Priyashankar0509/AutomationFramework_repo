@@ -17,7 +17,7 @@ public class TC_DWS_006 extends BaseClass{
 		hp.getComputersLink().click();
 		Assert.assertEquals(driver.getTitle(), "Demo Web Shop. Computers", " Computer Page is not displayed");
 		test.log(Status.PASS, "Computer Page is Displayed");
-		test.log(Status.PASS, "Edited GitHub");
+	//	test.log(Status.PASS, "Edited GitHub");
 	}
 
 }
